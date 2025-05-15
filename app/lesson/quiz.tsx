@@ -205,7 +205,7 @@ export const Quiz = ({
 
   const title =
     challenge.type === "ASSIST"
-      ? "Para que serve um fundo de emergência:"
+      ? "Ajude o Fafante a investir:"
       : challenge.question;
 
   return (
