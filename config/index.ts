@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 export const siteConfig: Metadata = {
   title: "KhanFinance",
   description:
-    "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
+    "Plataforma interativa para o aprendizado de finanças com lições, questionários e acompanhamento do progresso.",
   keywords: [
     "reactjs",
     "nextjs",
     "vercel",
     "react",
     "KhanFinance",
-    "learn-language",
+    "learn-finance",
     "shadcn",
     "shadcn-ui",
     "radix-ui",
@@ -40,12 +40,12 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Eduardo da Silva Baldino",
+    url: "https://github.com/Eduardo-Balduino",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/duolingo-clone",
-  email: "sanidhya.verma12345@gmail.com",
+  sourceCode: "https://github.com/Eduardo-Balduino/KhanFinance",
+  email: "eduardo.silva.balduino@gmail.com",
 } as const;
