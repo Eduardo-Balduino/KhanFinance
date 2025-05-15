@@ -7,9 +7,8 @@ type BannerProps = {
   setHide: Dispatch<SetStateAction<boolean>>;
 };
 
-const Banner = (_: BannerProps) => {
-  // Banner desativado — não renderiza nada
+function Banner(_props: BannerProps) {
   return null;
-};
+}
 
 export default Banner;
