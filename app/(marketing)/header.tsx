@@ -18,12 +18,15 @@ import { Button } from "@/components/ui/button";
 import { links } from "@/config";
 import { cn } from "@/lib/utils";
 
+import Banner from "./banner";
+
 export const Header = () => {
   const { isSignedIn } = useAuth();
   const [hideBanner, setHideBanner] = useState(true);
 
   return (
     <>
+      <Banner hide={hideBanner} setHide={setHideBanner} />
 
       <header
         className={cn(
